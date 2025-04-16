@@ -10,7 +10,7 @@ import time # For potential retries or delays
 # Load API Key securely
 try:
     # Attempt to load from Streamlit secrets first
-    GEMINI_API_KEY = "AIzaSyCvgVKUBF5HaTWVBiDKnZLxkDMmeZcUqGw"
+    GEMINI_API_KEY = ""
     if not GEMINI_API_KEY:
         # Fallback to environment variable if not in secrets
         GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
