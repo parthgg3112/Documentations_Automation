@@ -10,7 +10,7 @@ from datetime import datetime # To add timestamp to filenames
 # --- Configuration ---
 # Load API Key securely (Keep your existing logic here)
 try:
-    GEMINI_API_KEY = ""
+    GEMINI_API_KEY = "AIzaSyDTkvuOp7lIaLbJNNdE2l5mx5eGhEnIi5w"
     if not GEMINI_API_KEY:
         GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
     if not GEMINI_API_KEY:
